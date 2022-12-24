@@ -5,12 +5,13 @@ import java.util.Comparator;
 public class Tester implements Comparator<Student> {
     public static void main(String[] args){
         Student[] IDNumber = new Student[]{};
-        IDNumber = setArrray();
+        //IDNumber = setArrray();
     }
-
+/*
     public Student[] setArrray(Student[] IDNumber){
         IDNumber
     }
+*/
 
     public int compare(Student a, Student b){
         if (a.getGPA() > b.getGPA())
